@@ -22,6 +22,7 @@ public class LinkedList {
     } 
   
     // Method to insert a new node 
+    //Time Complexity- O(n)
     public  LinkedList insert(LinkedList list, int data) 
     { 
         Node newNode= new Node(data);
@@ -47,7 +48,8 @@ public class LinkedList {
         
     } 
   
-    // Method to print the LinkedList. 
+    // Method to print the LinkedList.
+    //Time Complexity- O(n)
     public  void printList(LinkedList list) 
     {  
     	Node curr=list.head;

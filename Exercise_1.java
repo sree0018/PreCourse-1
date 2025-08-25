@@ -5,6 +5,8 @@ class Stack {
     int top;
     int a[] = new int[MAX]; // Maximum size of Stack 
   
+ // Time Complexity: O(1)
+ // Space Complexity: O(1)
     public boolean isEmpty() 
     { 
         if(top== -1) {
@@ -13,6 +15,8 @@ class Stack {
         return false;
     } 
     
+ // Time Complexity: O(1)
+ // Space Complexity: O(1)
     public boolean isFull() {
     	if(top== MAX-1) {
     		return true;
@@ -25,6 +29,9 @@ class Stack {
         this.top= -1;
     } 
   
+    
+ // Time Complexity: O(1)
+ // Space Complexity: O(1)
     boolean push(int x) 
     { 
         if(isFull()) {
@@ -37,6 +44,8 @@ class Stack {
         
     } 
   
+ // Time Complexity: O(1)
+ // Space Complexity: O(1)
     int pop() 
     { 
         if(isEmpty()) {
@@ -47,6 +56,9 @@ class Stack {
         return a[top--];
     } 
   
+    
+ // Time Complexity: O(1)
+ // Space Complexity: O(1)
     int peek() 
     { 
         if(isEmpty()) {

@@ -13,6 +13,8 @@ public class StackAsLinkedList {
     } 
     
 	
+    // Time Complexity: O(1)
+    // Space Complexity: O(1)
     public boolean isEmpty() 
     { 
         if(root== null) {
@@ -22,6 +24,9 @@ public class StackAsLinkedList {
         return false;
     } 
   
+    
+    // Time Complexity: O(1)
+    // Space Complexity: O(1)
     public void push(int data) 
     { 
     	StackNode newNode= new StackNode(data);
@@ -33,6 +38,8 @@ public class StackAsLinkedList {
        
     } 
   
+    // Time Complexity: O(1)
+    // Space Complexity: O(1)
     public int pop() 
     { 	
     	if(isEmpty()) {
@@ -47,6 +54,8 @@ public class StackAsLinkedList {
 	//Also return the popped element 
     } 
   
+    // Time Complexity: O(1)
+    // Space Complexity: O(1)
     public int peek() 
     { 
     	if(isEmpty()) {
